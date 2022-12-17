@@ -1,0 +1,31 @@
+
+.card {
+    min-height: 200px;
+    height: auto;
+    width: 46%;
+    outline: solid 1px black;
+    margin: 10px 17px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.languageBox {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.language {
+    max-width: 50%;
+    min-width: 15px;
+    /* height: 15px; */
+    background: #4a90cf;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    /* border: 1px solid ; */
+    float: left;
+}
