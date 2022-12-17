@@ -30,7 +30,7 @@ const UserDetails = () => {
       method: "get",
       url: `https://api.github.com/users/${username}`,
       headers: {
-        Authorization: "Bearer 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",
+        Authorization: "Bearer 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",
       },
     };
     await axios(config)
