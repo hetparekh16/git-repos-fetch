@@ -29,9 +29,6 @@ const UserDetails = () => {
     var config = {
       method: "get",
       url: `https://api.github.com/users/${username}`,
-      headers: {
-        Authorization: "Bearer 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",
-      },
     };
     await axios(config)
       .then(async (response) => {
